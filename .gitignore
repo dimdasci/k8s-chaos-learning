@@ -1,0 +1,23 @@
+# In project root .gitignore
+# Secrets
+k8s/base/database/postgres-secret.yaml
+k8s/overlays/*/secrets/
+
+# Environment files
+.env
+.env.local
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+dist/
+build/
+*.pyc
+__pycache__/
+.venv/
