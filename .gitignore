@@ -18,6 +18,9 @@ Thumbs.db
 # Bruno API files
 api-collection/
 
+# Obsidian files
+docs/.obsidian/
+
 # Build artifacts
 dist/
 build/
