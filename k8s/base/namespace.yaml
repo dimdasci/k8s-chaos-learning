@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: task-mgmt
+  labels:
+    app: task-management
+    phase: "1"
