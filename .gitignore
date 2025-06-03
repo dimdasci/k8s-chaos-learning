@@ -15,6 +15,9 @@ k8s/overlays/*/secrets/
 .DS_Store
 Thumbs.db
 
+# Bruno API files
+api-collection/
+
 # Build artifacts
 dist/
 build/
