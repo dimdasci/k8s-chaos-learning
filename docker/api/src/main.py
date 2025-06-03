@@ -19,7 +19,7 @@ from fastapi import FastAPI, HTTPException, Request, Depends, Response
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 
-from src.logger import get_logger
+from logger import get_logger
 
 # Configure structured JSON logging
 logger = get_logger("task-api")
